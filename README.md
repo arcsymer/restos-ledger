@@ -34,6 +34,9 @@ build/restos-cli --nodes 127.0.0.1:5000,127.0.0.1:5001,127.0.0.1:5002 put order:
 build/restos-cli --nodes 127.0.0.1:5000,127.0.0.1:5001,127.0.0.1:5002 get order:42
 ```
 
+> On Windows the binaries are `restos-cli.exe` / `restos-node.exe`. Git Bash appends `.exe`
+> automatically; in PowerShell/cmd write `build\restos-cli.exe`.
+
 ## Architecture
 
 ```mermaid
