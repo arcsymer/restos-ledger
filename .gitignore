@@ -1,0 +1,15 @@
+# build output
+/build/
+/out/
+/cmake-build-*/
+
+# runtime data (Raft logs)
+/data/
+*.log
+*.log.meta
+
+# os / ide
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
